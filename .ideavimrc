@@ -1,1 +1,4 @@
 nnoremap <C-l> o<Enter><Esc>O
+inoremap kj <Esc>
+cnoremap kj <Esc>
+vnoremap kj <Esc>
