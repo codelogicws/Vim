@@ -5,6 +5,9 @@ vnoremap kj <Esc>
 nnoremap <leader>ne :NERDTree<cr>
 
 set number
+:set tabstop=4
+:set shiftwidth=4
+:set expandtab
 
 
 
