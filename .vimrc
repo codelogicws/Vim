@@ -9,6 +9,19 @@ set number
 :set shiftwidth=4
 :set expandtab
 
+"--------------syntastic ----------------"
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
+let g:syntastic_haskell_ghc_mod_exec = 'ghc-mod.sh'
+let g:syntastic_haskell-checkers = ['hlint']
+set tabstop=4
+"--------------syntastic-----------------"
 
 
 
@@ -35,6 +48,7 @@ set number
  NeoBundle 'https://github.com/Lokaltog/vim-easymotion.git'
  NeoBundle 'https://github.com/kien/ctrlp.vim.git'
  NeoBundle 'https://github.com/scrooloose/nerdtree.git'
+ NeoBundle 'https://github.com/scrooloose/syntastic.git'
 
  " My Bundles here:
  " Refer to |:NeoBundle-examples|.
