@@ -4,6 +4,7 @@ cnoremap kj <Esc>
 vnoremap kj <Esc>
 nnoremap <leader>ne :NERDTree<cr>
 nnoremap <leader>ev :tabnew $MYVIMRC<cr>
+nnoremap <leader>cl gg<S-v><S-g>dd<Esc>i
 
 set number
 :set tabstop=4
