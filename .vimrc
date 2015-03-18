@@ -21,7 +21,6 @@ let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 let g:syntastic_haskell_ghc_mod_exec = 'ghc-mod.sh'
-let g:syntastic_haskell-checkers = ['hlint']
 set tabstop=4
 "--------------syntastic-----------------"
 
